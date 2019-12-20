@@ -8,5 +8,6 @@ $glue = implode(" ", $explodeUserTxT);
 $explodeUser = explode(" ", $glue);
 $FileUserTxTChunk = array_chunk($explodeUser, 5);
 
+
 //var_dump($FileUserTxTChunk);
 
