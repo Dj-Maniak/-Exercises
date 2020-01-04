@@ -18,13 +18,14 @@ if (empty($_POST)) {
     // var_dump($_SESSION['SSS']);
     ?>
     <a href="product.php">Добавить еще товари</a></br>
+    <h2>Оформить заказ</h2>
+    <h4>Для оформления уведите ваш номер телефона</h4>
+    <input type="text">
+    <input type="submit">
     <?php
 }
 ?>
-<h2>Оформить заказ</h2>
-<h4>Для оформления уведите ваш номер телефона</h4>
-<input type="text">
-<input type="submit">
+
 
 
 
